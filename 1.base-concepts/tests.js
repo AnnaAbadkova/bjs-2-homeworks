@@ -28,6 +28,7 @@ describe('Домашнее задание к занятию 1. «Основны�
       const amount = 'test';
       expect(calculateTotalMortgage(15, 0, amount, 36)).toBe(false);
     });
+  
     it('верно считать кредит: кейс #1', () => {
       expect(calculateTotalMortgage(10, 0, 50000, 12)).toEqual(52749.53);
     });
